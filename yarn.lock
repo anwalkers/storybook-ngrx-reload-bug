@@ -2343,6 +2343,63 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ngrx/effects@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@ngrx/effects@npm:12.0.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/core": ^12.0.0
+    "@ngrx/store": 12.0.0
+    rxjs: ^6.5.3
+  checksum: 0cce5643967af02318427132880303cf9d5b5f3ff2b6cd30e903cc2d94978815bbf725f1d1d98fc8a07b79642c2145faed66e02f93498dcf100685342b5024da
+  languageName: node
+  linkType: hard
+
+"@ngrx/entity@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@ngrx/entity@npm:12.0.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/core": ^12.0.0
+    "@ngrx/store": 12.0.0
+    rxjs: ^6.5.3
+  checksum: d8f29bbda7ff8d943e60249a16260c6b4196264a3f21abc2f54b502757dcaf9b51fdb8e8c58446638918b465198835081d092bc55021cf1b04912279e485c763
+  languageName: node
+  linkType: hard
+
+"@ngrx/schematics@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@ngrx/schematics@npm:12.0.0"
+  checksum: 40e5c48c08c802cea7691d59a92fe87df26c6a0186bab75bb76db58800ae04e52a6af0e8de8397fbad1e64877a99e19362f370bbbf7ef4300ce6d99bdd7cf659
+  languageName: node
+  linkType: hard
+
+"@ngrx/store-devtools@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@ngrx/store-devtools@npm:12.0.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@ngrx/store": 12.0.0
+    rxjs: ^6.5.3
+  checksum: da8717c0721ce3bbf09c1d17267d478c5006b78fa047017d50b7d4f2d401dd9d64af5172c38270f863af5eaa93aa700896eff38f45b6b37823e39fd5d3982120
+  languageName: node
+  linkType: hard
+
+"@ngrx/store@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@ngrx/store@npm:12.0.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/core": ^12.0.0
+    rxjs: ^6.5.3
+  checksum: 32851e890668ebe82e9ebe928f6bc4c2b08228c516eb964c3324adbf05041d73925318d2b84ed845f640f51510498be24883038a9765c8b57cc3844348737f98
+  languageName: node
+  linkType: hard
+
 "@ngtools/webpack@npm:11.2.13":
   version: 11.2.13
   resolution: "@ngtools/webpack@npm:11.2.13"
@@ -11855,6 +11912,11 @@ fsevents@^1.2.7:
     "@babel/core": ^7.14.3
     "@compodoc/compodoc": ^1.1.11
     "@mdx-js/react": ^1.6.22
+    "@ngrx/effects": ^12.0.0
+    "@ngrx/entity": ^12.0.0
+    "@ngrx/schematics": ^12.0.0
+    "@ngrx/store": ^12.0.0
+    "@ngrx/store-devtools": ^12.0.0
     "@storybook/addon-actions": ^6.3.0-alpha.36
     "@storybook/addon-docs": ^6.3.0-alpha.36
     "@storybook/addon-essentials": ^6.3.0-alpha.36
