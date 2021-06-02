@@ -16,9 +16,9 @@ export interface State {
 }
 
 // CASE1: WORKS for both storybook and application
-export const ROOT_REDUCERS: ActionReducerMap<State, Action> = {
-  [fromProperty.propertyFeatureKey]: fromProperty.reducer,
-};
+// export const ROOT_REDUCERS: ActionReducerMap<State, Action> = {
+//   [fromProperty.propertyFeatureKey]: fromProperty.reducer,
+// };
 
 // CASE 2: BROKEN for storybook, WORKS for application
 // export function reducersFactory(): ActionReducerMap<State, Action> {
@@ -32,11 +32,11 @@ export const ROOT_REDUCERS: ActionReducerMap<State, Action> = {
 // });
 
 // CASE 3: BROKEN for storybook, WORKS for application
-// export const ROOT_REDUCERS = new InjectionToken<ActionReducerMap<State, Action>>('Root reducers token', {
-//   factory: () => ({
-//     [fromProperty.propertyFeatureKey]: fromProperty.reducer,
-//   })
-// });
+export const ROOT_REDUCERS = new InjectionToken<ActionReducerMap<State, Action>>('Root reducers token', {
+  factory: () => ({
+    [fromProperty.propertyFeatureKey]: fromProperty.reducer,
+  })
+});
 
 
 
